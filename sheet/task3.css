@@ -3,120 +3,103 @@
 	padding: 0;
 }
 
-
 body {
-
-	margin: 0 10% 0 10%;
+	color: #fff;
 }
 
 nav {
-	position: absolute;
-	width: 80%;
-	top: 0;
+	float: left;
+	width: 100vw;
 	background: #000;
-	height: 4rem;
-	line-height: 4rem;
+	height: 8vh;
 }
 
 section {
-	position: absolute;
+	float: left;
 	background: #4DD1D6;
-	width: 80%;
-	top: 4rem;
-	bottom: 0;
+	height: 92vh;
 }
 
-p {
-	color: white;
-	font-size: 1.6rem;
-}
-
-nav ul {
+li {
 	list-style-type: none;
+	float: left;
+	line-height: 8vh;
 }
 
-nav ul li {
-	color: white;
+li img,li span{
 	vertical-align: middle;
 }
 
-li img {
-	vertical-align: middle;
+
+li a{
+	text-decoration: none;
+	color: #fff;
 }
 
-
-li.arrow {
-	float: left;
-	width: 20%;
-	padding-left: 2%;
-	font-size: 1.5rem;
+.arrow span {
+	font-size: 3v;
 }
 
+.title span {
+	font-size: 4vh;
+}
 
-li.title {
-	float: left;
-	font-size: 2rem;
-	width: 56%;
+.arrow{
+	width: 30vw;
+	padding-left: 2vw;
+}
+
+.title {
+	width: 34vw;
 	text-align: center;
 }
 
-li.menu {
-	float: right;
-	width: 20%;
-	padding-right: 2%;
+.menu {
+	width: 30vw;
 	text-align: right;
+	padding-right: 2vw;
 }
 
-nav a {
-	color: white;
-	text-decoration: none;
+.arrow img {
+	height: 6vh;
 }
 
-.back {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	top: 2rem;
-	left: 5%;
-
+.menu img{
+	height: 1.5vh;
 }
 
-div.logo {
-	width: 181px;
-	margin: 3rem auto 3rem auto;
+.back img {
+	width: 10%;
+	max-width: 54px;
+	padding: 3vw 6vw;
 }
 
-section>p {
-	width: 25rem;
-	margin: 3rem auto 3rem auto;
-	line-height: 3rem;
-}
-
-div.left {
-	float: left;
-	width: 40%;
-	text-align: right;
-}
-
-div.right {
-	float: right;
-	width: 40%;
-	text-align: left;
+.logo,.logo img {
+	width: 40vw;
+	max-width: 181px;
+	margin: 3vh auto;
 }
 
 
+.ptt {
+	width: 70vw;
+	padding: 0 15vw;
+	font-size: 6vw;
+	letter-spacing: 1vw;
+	line-height: 8vw;
+}
 
+.right,.left {
+	display: inline-block;
+	text-align: center;
+	margin-top: 10vw;
+	width: 49vw;
+	font-size: 4vw;
+}
 
-
-
-
-
-
-
-
-
-
-
+.right img, .left img{
+	width: 15vw;
+}
 
 
 

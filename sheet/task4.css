@@ -1,0 +1,135 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body>header {
+	background: #00c0e3;
+	height: 8vh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li{
+	color: #fff;
+	font-size: 3vh;
+	width: 34vw;
+	float: left;
+	text-align: center;
+}
+
+li * {
+	line-height: 8vh;
+	vertical-align: middle;
+}
+
+li img {
+	height: 4vh;
+}
+
+li.home_button {
+	text-align: left;
+	width: 33vw;
+}
+
+
+li.more_button {
+	text-align: right;
+	width: 33vw;
+}
+
+.line {
+	height: 1px;
+	width: 100vw;
+	background: gray;
+}
+
+.result {
+	padding-top: 1px;
+	border-top: white 1px;
+	background: #00c0e3;
+	text-align: center;
+}
+
+.result img {
+	height: 5vh;
+	padding: 1vh 0;
+}
+
+.result p{
+	color: #fcca39;
+	text-align: left;
+	width: 80vw;
+	padding: 0 10vw 10vw 10vw;
+	font-size: 3vh;
+}
+
+.data {
+	background: #00c0e3;
+	font-size: 2.5vh;
+}
+
+.data p{
+	color: white;
+	width: 80vw;
+	padding:0 10vw;
+}
+
+.data p span {
+	padding-right: 2em;
+}
+
+.day {
+	border-bottom: 1px gray;
+	width: 80vw;
+	padding: 2vw 10vw 5vw 10vw;
+	color: gray;
+	font-size: 2vh;
+}
+
+.day p {
+	padding: 1vh 0;
+}
+
+header span:first-child {
+	font-size: 3vh;
+	color: black;
+}
+
+.time {
+	font-size: 1.5vh;
+	float: right;
+	padding-right: 10vw;
+}
+
+footer {
+	background: rgba(0,192,227,0.5);
+	position: fixed;
+	bottom: 0;
+	height: 15vh;
+	width: 100vw;
+	color: white;
+}
+
+footer div {
+	background: rgb(255,92,107);
+	float: left;
+	border-radius: 1vh;
+	width: 40vw;
+	height: 10vh;
+	margin: 2.5vh 5vw 2.5vh 5vw;
+	text-align: center;
+
+}
+
+div p {
+	line-height: 10vh;
+	vertical-align: middle;
+	font-size: 4vh;
+}
+
+.upLoad {
+	background: rgb(255,180,0);
+}
