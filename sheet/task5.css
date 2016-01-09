@@ -8,11 +8,14 @@ body {
 	background: rgb(239,240,241);
 }
 .wrapper {
-
-	max-width: 300px;
+	position: relative;
+	transition: all 0.5s;
 }
 
-nav {
+header {
+	position: relative;
+	top: 0;
+	left: 0;
 	width: 100vw;
 	height: 6vh;
 	background: rgb(0,192,227);
@@ -57,7 +60,7 @@ section h2 {
 	font-size: 6vw;
 }
 
-nav img {
+header img {
 	height: 2.5vh;
 	padding: 1.75vh;
 }
@@ -94,3 +97,42 @@ nav img {
 	width: 20%;
 
 }
+
+label {
+	cursor: pointer;
+}
+#tm {
+	display: none;
+}
+#tm:checked ~: div.wrapper {transform: translateX(150px);}
+
+/*以下是弹出侧边栏*/
+nav {
+	width: 70vw;
+	height: 100vh;
+}
+
+nav li {
+	float: left;
+	display: inline;
+	line-height: 8vh;
+	vertical-align: middle;
+	width: 70vw;
+	height: 8vh;
+	border-style: solid;
+	border-color: rgb(166,166,166);
+	border-width: 0 0 1px 0;
+}
+
+nav li span {
+	line-height: 8vh;
+	vertical-align: middle;
+	padding: 0 20vw 0 15vw; 
+	color: rgb(0,192,227);
+}
+
+
+
+
+
+
