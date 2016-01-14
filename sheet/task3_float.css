@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*.container {
+	min-width: 640px;
+}*/
+
+a {
+	text-decoration: none;
+}
+
+body {
+		background-color: rgb(93,198,207);
+}
+
+/*nav导航条开始*/
+.nav {
+	list-style-type: none;
+	/*上面一行不能用%，因为这个是继承的。。。。。*/
+}
+
+
+li {
+	/*display: block;*//*这里使用block的话，文字和图片居中有点问题。*/
+	height: 8.2vh;
+/*	float: left;*/
+/*	box-sizing:border-box;*/
+	background-color: black;
+}
+
+
+.arrow {
+	float: left;
+/*	width: 20vw;*/
+	width: 17.5vw;
+	text-align: left;
+	padding-left: 2.5vw;
+}
+
+.menu {
+	float: right;
+/*	width: 20vw;*/
+	width: 17.5vw;
+	text-align: right;
+	padding-right: 2.5vw;
+}
+
+
+.title {
+	float: left;
+/*	margin: 0 20vw;*/
+	width: 60vw;
+	text-align: center;
+}
+
+
+
+
+
+li img, li span, li a{
+	line-height: 8.2vh;
+	vertical-align: middle;
+	color: white;
+}
+
+.arrow img {
+	height: 4.1vh;
+}
+
+.menu img {
+	height: 1vh;
+}
+
+.arrow span {
+	font-size: 2.5vh;
+}
+
+.title span {
+	font-size: 3vh;
+}
+
+/*这个导航条结束，页面开始*/
+
+.back img {
+	padding-left: 5.5vw;
+	padding-top: 1.8vh;
+	height: 5vh;
+}
+
+section {
+	width: 70vw;
+	margin: 0 auto;
+
+}
+
+.logo {
+	/*margin: 0 auto;*/
+	text-align: center;
+	padding: 3.82vh 0;
+}
+
+.logo img {
+	height: 6.36vh;
+	padding: 0 10vw 0 0;
+	/*psd中的logo不是居中的。。。
+	这里，包括上面的箭头，
+	用了padding来调整位置。*/
+}
+
+p.ptt {
+	padding: 5vh 0;
+	color: white;
+	font-size: 2.7vh;
+	line-height: 5vh;
+}
+
+.bottom {
+	padding: 9vh 0 ;
+}
+
+.bottom img {
+	height: 7.64vh;
+}
+
+.bottom div {
+	text-align: center;
+	color: white;
+	font-size: 2vh;
+}
+
+.bottom div p {
+	line-height: 4vh;
+}
+/*.left {
+	float: left;
+	padding-left: 6vw；
+	这样写padding-left规则不生效？？？
+}*/
+
+
+.right {
+	float: right;
+	padding-right: 6vw;
+}
+
+.left {
+	float: left;
+	position: relative;
+	left: 6vw;
+}
