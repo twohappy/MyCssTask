@@ -1,15 +1,20 @@
 #wrapper {
-	width: 80%;
+	width: 100%;/*这个值应该可以去掉*/
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 650px;
+	max-width: 650px; 
+	/*这个值为了在电脑上好看点，
+	因为九宫格是一个方形，所以在
+	竖屏手机上面不会出现width=device-width，
+	height却超过可视area的情况。
+	横屏暂时没有考虑。应该是对height进行限制？*/
 }
 .box {
 	display: inline-block;
 	background-color: #f17e00;
-	padding: 16.4%;
+	padding: 16.4%; /*16.4%*2*3=98.4%*/
 	border-radius: 5%;
 	/*浮动元素的外边距不会发生合并*/
-	margin: 0.2%; 
+	margin: 0.2%; /*98.4%+0.2%*6=99.6%，这里出现了一个问题,外边距合并。*/
 	float: left;
 }
