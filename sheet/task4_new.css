@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(237,237,237);
+}
+
+ul {
+/*	float: left;
+*/	width: 100vw;
+	height: 8vh;
+	list-style-type: none;
+}
+li {
+	float: left;
+	background-color: rgb(80,184,199);
+	line-height: 8vh;
+	vertical-align: middle;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.left {
+	width: 20vw;
+	padding-left: 2vw;
+	font-size: 3vh;
+}
+
+.middle {
+	width: 56vw;
+	text-align: center;
+	font-size: 4vh;
+}
+
+.right {
+	width: 20vw;
+	padding-right: 2vw;
+	text-align: right;
+	font-size: 3vh;
+}
+
+div {
+	width: 100vw;
+	height: 9.1vh;
+	clear: left;
+	background-color: #fff;
+	margin: 1vh 0;
+}
+
+div img {
+	height: 4vh;
+	vertical-align: middle;
+	line-height: 9.1vh;
+}
+
+input {
+	vertical-align: middle;
+	border: none;
+	line-height: 9.1vh;
+	font-size: 3vh;
+	color: gray;
+}
+
+.icon {
+	padding: 0 6vh;
+}
+
+.login {
+	display: block;
+	width: 100vw;
+	height: 10vh;
+	background-color: rgb(80,184,199);
+	margin: 7vh 0 1vh 0;
+	text-align: center;
+}
+
+.login span {
+	vertical-align: middle;
+	line-height: 10vh;
+	font-size: 3vh;
+}
+
+a.forget {
+	display: block;
+	color: rgb(80,184,199);
+	float:right;
+	font-size: 2vh;
+}
