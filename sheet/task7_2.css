@@ -1,0 +1,114 @@
+.local_con {
+	height: 1415px;
+}
+/*面包屑导航条*/
+.crumb {
+	height: 80px;
+}
+
+.crumb a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 80px;
+	vertical-align: middle;
+}
+
+.crumb_item {
+	color: black;
+}
+
+.crumb_current {
+	color: rgb(27,168,107);
+}
+
+/*合作企业边栏*/
+
+.comp_list {
+	float: left;
+	height: 650px;
+	width: 304px;
+	background-color: white;
+	list-style: none;
+	text-align: center;
+}
+
+.comp_list a{
+	text-decoration: none;
+}
+
+.comp_title {
+	font-size: 17px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 60px;
+	vertical-align: middle;
+	border-bottom: solid rgb(226,226,226) 2px;
+}
+
+.comp_item {
+	font-size: 13px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 22px;
+	list-style-image: url(../image/task7_2/list_item.png);
+	list-style-position: inside;
+}
+
+.comp_item a {
+	color: rgb(27,168,107);
+}
+
+.comp_current {
+	list-style-image: url(../image/task7_2/list_current.png);
+}
+
+.comp_current a {
+	color: rgb(241，157，62);
+}
+/*公司介绍*/
+.comp_intro {
+	float: left;
+	width: 870px;
+	margin-left: 26px;
+	background-color: white;
+	line-height: 27px;
+	font-size: 13px;
+	color: gray;
+}
+
+.comp_brief {
+	height: 160px;
+	border-bottom: solid rgb(226,226,226) 2px;
+	padding: 26px 65px;
+
+}
+.comp_logo, .brief_content{
+	float: left;
+}
+
+.comp_logo {
+	width: 180px;
+	text-align: center;
+	line-height: 160px;
+	vertical-align: middle;
+}
+
+.brief_content {
+	width: 560px;
+
+}
+
+.comp_detail {
+	padding: 26px 65px;
+	clear: left;
+}
+
+.comp_detail {
+	text-indent: 2em;
+}
+
+.comp_detail p {
+	margin-bottom: 36px;
+}
+

@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: rgb(80,184,199);
+	height: 7vh;
+	width: 100vw;
+	float: left;
+	text-align: center;
+}
+
+header span{
+		line-height: 7vh;
+		vertical-align: middle;
+	color: white;
+	font-size: 3vh;
+	padding: 0 5vh 0 0 ;
+}
+
+header img {
+	height: 3vh;
+	float: left;
+	padding: 2vh 0 2vh 2vh; 
+}
+/*个人头像及姓名年龄，高度为27vh，头像高度13vh*/
+.profile {
+	background-image: url(../image/task5_new/images/1/background.png);
+	background-size: cover; 
+	height: 27vh;
+	clear: left;
+	position: relative; /*为对子元素使用绝对定位*/
+}
+
+.profile img.photo {
+	position: absolute;
+	left: 2vh;
+	top: 7vh;
+	height: 13vh;
+}
+
+.profile div {
+	position: absolute;
+	right: 0;
+	top: 10vh;
+	bottom: 10vh;
+	left: 18vh;
+}
+
+.profile p {
+	color: white;
+}
+.profile .person {
+	padding-bottom: 0.5vh;
+}
+.profile .name {
+	font-size: 3vh;
+}
+
+.profile .age {
+	font-size: 2.5vh;
+}
+
+.profile .locate img {
+	height: 2vh;
+	vertical-align: middle;
+}
+
+.profile .locate {
+	font-size: 2vh;
+}
+
+/*专业技能*/
+.detail div {
+	height: 8.3vh;
+	border-style: solid;
+	border-color: rgb(80,184,199);
+	border-width: 0 0 1px 0;
+}
+.detail .experience {
+	width: 96vw;
+	position: relative;
+	left: 4vw;
+}
+.detail div span {
+	line-height: 8.3vh;
+	vertical-align: middle;
+	font-size: 2.3vh;
+}
+
+.detail div.skill span{
+	position: relative;
+	left: 3vw;
+	padding: 0 3vw;
+	border-style: solid;
+	border-color: rgb(80,184,199);
+	border-width: 0 0 0 2px;
+	font-size: 2.5vh;
+}
+.detail span{
+	padding: 0 3vw;
+	border-style: solid;
+	border-color: rgb(80,184,199);
+	border-width: 0 0 0 1px;
+}
+
+.detail span:first-child {
+	border: none;
+}
+
+.detail .require img {
+	vertical-align: baseline;
+	height: 2vh;
+}
+
+.detail .price {
+	color: red;
+	font-weight: bolder;
+}
+
+.detail .intro {
+	line-height: 2vh;
+	display: inline-block;
+	font-size: 2vh;
+	width: 60vw;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 10vh;
+	font-size: 2.8vh;
+}
+
+footer a {
+	text-decoration: none;
+	margin:0 4vw;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	width: 40vw;
+	text-align: center;
+	padding: 1vh 0;
+	border-radius: 1.3vh;
+}
+
+footer a.message {
+	border-color: rgb(80,184,199);
+	color: rgb(80,184,199);
+}
+
+footer a.number {
+	background-color: rgb(80,184,199);
+	color: white;
+}

@@ -1,0 +1,36 @@
+.tel_no {
+	color: rgb(27,168,107);
+}
+
+.img-wrapper {
+	float: right;
+}
+
+.img-wrapper img  {
+	padding-left: 15px;
+}
+
+.nav-wrapper {
+	background-color: rgb(27,168,107);
+	height: 100px;
+}
+
+.nav-pills {
+	float: right;
+}
+
+/*.nav-wrapper .container .nav > li > a {
+	height: 100px;
+	line-height: 96px;
+	color: #fff;
+	background-color: rgb(27,168,107);
+	border-radius: 0;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: 0 15px;
+}*/
+/*跟官网学的，这么多层选择器是为了增加权重？不然无法覆盖？*/
+
+.nav-wrapper .container .nav > li.active > a, .nav-wrapper .container .nav > li > a:hover{
+	border-bottom: solid #fff 4px;
+}

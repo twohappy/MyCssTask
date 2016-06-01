@@ -1,0 +1,274 @@
+
+/*banner*/
+.banner {
+	position: relative;
+	height: 600px;
+	width: 1920px;
+	background-image: url(../image/task7_1/banner.png);
+	background-size: 1920px 600px;
+}
+
+.to {
+	width: 294px;
+	height: 600px;
+	line-height: 600px;
+	vertical-align: middle;
+}
+
+.left {
+	float: left;
+	text-align: right;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.caro_dot {
+	position: absolute;
+	bottom: 22px;
+	width: 1920px;
+	text-align: center;
+}
+
+.caro_dot img {
+	height: 25px;
+	width: 25x;
+	padding: 4px;
+}
+
+/*content*/
+
+
+.specialty_container {
+	height: 427px;
+	padding: 163px 0 20px 0;
+}
+
+.specialty {
+	float: left;
+	width: 312px;
+	text-align: center;
+	padding: 30px 45px 0 45px;
+}
+
+.specialty_img {
+	height: 62px;
+	line-height: 62px;
+}
+
+.specialty_img img {
+	vertical-align: middle;
+}
+
+.specialty_name {
+	font-size: 19px;
+	font-weight: bold;
+	height: 84px;
+	vertical-align: middle;
+	line-height: 84px;
+}
+
+.specialty_content {
+	color: gray;
+	font-size: 15px;
+	text-align: left;
+	height: 88px;
+}
+
+/*how to study*/
+
+.howto_container {
+	height: 450px;
+}
+.stu_no {
+	float: left;
+	width: 264px;
+	height: 264px;
+	padding: 92px 45px 0 45px;
+	border-left: dashed gray 1px;
+}
+
+.no {
+	height: 15px;
+	padding-left: 23px;
+	background-image: url(../image/task7_1/stu.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: rgb(27,168,107);
+	font-size: 15px;
+}
+
+.no_info {
+	color: gray;
+	font-size: 17px;
+}
+
+.howto_container .sub_title {
+	height: 150px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 150px;
+	vertical-align: middle;
+}
+
+.step, .step_no, .step_content, .step_arrow {
+	float: left;
+}
+
+
+.step_no {
+	height: 74px;
+	width: 74px;
+	border-radius: 37px;
+	background-color: white;
+	text-align: center;
+	line-height: 74px;
+	vertical-align: middle;
+	color: rgb(27,168,107);
+}
+
+.step_content {
+	padding-top: 18px;
+	height: 150px;
+	width: 165px;
+	padding-left: 12px;
+	vertical-align: middle;
+	font-size: 15px;
+	color: gray;
+}
+
+.step_arrow {
+	width: 65px;
+	padding: 22px 10px 22px 10px;
+	height: 74px;
+}
+
+/*good learner*/
+
+.learner {
+	height: 570px;
+}
+
+.learner .sub_title {
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.learner_area, .gap {
+	float: left;
+}
+
+.learner_area {
+	height: 370px;
+	width: 270px;
+	background-color: white;
+	text-align: center;
+}
+
+.gap {
+	width: 40px;
+	height: 370px;
+}
+
+.learner_area img {
+	height: 148px;
+	padding: 20px;
+}
+
+.learner_title {
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.learner_intro {
+	color: gray;
+	font-size: 15px;
+	text-align: left;
+	padding: 0 32px;
+	line-height: 27px;
+	vertical-align: middle;
+}
+
+.learner_dot {
+	clear: both;
+	width: 1200px;
+	height: 59px;
+	text-align: center;
+}
+
+.learner_dot img {
+	height: 59px;
+	width: 17px;
+	padding: 23px 2px;
+	vertical-align: middle;
+}
+
+/*cooperation*/
+
+.cooperation {
+	height: 370x;
+	padding-bottom: 65px;
+}
+
+.cooperation .sub_title {
+	height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 140px;
+}
+
+.enterprise_container {
+	height: 230px;
+	padding: 25px 0;
+	vertical-align: top;
+}
+
+.enterprise {
+	position: relative;
+	display: block;
+	float: left;
+	width: 240px;
+	height: 180px;
+	background-color: white;
+	text-align: center;
+	line-height: 180px;
+	vertical-align: middle;
+}
+.enterprise img{
+	line-height: 180px;
+	vertical-align: middle;
+}
+
+.friendly_link {
+	width: 1920px;
+	height: 134px;
+	border-color: white;
+	padding: 0 360px;
+}
+
+.friendly_link .sub_title {
+	font-size: 18px;
+	font-weight: bold;
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	vertical-align: middle;
+}
+
+.friendly_link li {
+	float: left;
+	width: 120px;
+	height: 41px;
+}
+
+.friendly_link li a {
+		text-decoration: none;
+	color: gray;
+}

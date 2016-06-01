@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1920px;
+	padding: 0 360px;
+}
+/*header*/
+.header {
+	width: 1920px;
+	height: 138px;
+}
+
+.contact {
+	height: 38px;
+}
+
+.nav {
+	height: 100px;
+	background-color: rgb(27,168,107);
+	color: white;
+}
+
+.contact * {
+	color: rgb(27,168,107);
+}
+
+.nav * {
+	color: white;
+}
+
+.tel_no {
+	float: left;
+	line-height: 38px;
+	vertical-align: middle;
+}
+
+.contact a {
+	float: right;
+}
+
+.contact a img {
+	height: 24px;
+	width: 24px;
+	line-height: 38px;
+	margin: 6px;
+}
+
+.nav_item {
+	display: block;
+	float: right;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.logo {
+	float: left;
+	height: 100px;
+	padding: 26px 0;
+}
+
+.nav a:hover {
+	border-bottom: solid white 4px;
+}
+/*content*/
+
+.content {
+	background-color: rgb(248,248,248);
+	padding-bottom: 200px;
+}
+
+/*footer*/
+
+footer {
+	background-color: rgb(27,168,107);
+	height: 170px;
+	clear: both;
+}
+
+footer * {
+	color: white;
+}
+
+
+.qrcode {
+	float: right;
+}
+.about, .under_flag {
+	float: left;
+	width: 364px;
+}
+
+
+.copyright {
+	clear: both;
+	border-top: solid rgb(34,185,121) 1px;
+	background-color: rgb(27,168,107);
+	height: 30px;
+	color: white;
+	text-align: center;
+}
+
+

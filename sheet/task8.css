@@ -1,0 +1,245 @@
+.content {
+	float: left;
+}
+
+/*面包屑导航条*/
+.crumb {
+	height: 81px;
+	border-bottom: solid rgb(201,208,212) 1px;
+}
+
+.crumb a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 80px;
+	vertical-align: middle;
+}
+
+.crumb_item {
+	color: black;
+}
+
+.crumb_current {
+	color: rgb(27,168,107);
+}
+
+/*职业方向*/
+
+.career {
+	float: left;
+	width: 1200px;
+}
+
+.career_direction {
+	height: 61px;
+	border-bottom: solid rgb(201,208,212) 1px;
+}
+
+.career_title, .career_this, .career_other {
+	line-height: 60px;
+	vertical-align: middle;
+	font-size: 12px;
+	margin-right: 30px;
+}
+
+.career_direction {
+	color: rgb(27,168,107);
+}
+
+.career_this {
+	background-color: rgb(27,168,107);
+	color: white;
+	padding: 3px;
+}
+.career_other {
+	color: black;
+}
+
+/*各个开发方向*/
+.direction_title {
+	height: 81px;
+	border-bottom: solid rgb(201,208,212) 1px;
+	line-height: 80px;
+	vertical-align: middle;
+}
+
+/*前端方向*/
+
+.direction_container {
+	width: 382px;
+	background-color: white;
+	margin-top: 46px;
+	border: solid rgb(235,235,235) 1px;
+	float: left;
+	position: relative;
+}
+
+.mid_container {
+	margin: 46px 27px 0 27px;
+}
+
+.name {
+	height: 176px;
+	border-bottom: solid rgb(235,235,235) 1px;
+}
+
+.name img {
+	float: left;
+	height: 139px;
+	width: 139px;
+	margin: 20px 8px 16px 11px;
+}
+
+.name h3 {
+	float: left;
+	width: 212px;
+	margin: 20px 10px 0 0;
+	line-height: 45px;
+	vertical-align: middle;
+}
+
+.name p{
+	padding: 0 10px 0 0;
+	font-size: 14px;/*15px文字换行有问题*/
+}
+
+.items {
+	height: 82px;
+	font-size: 12px;
+}
+
+
+.item_left, .item_right {
+	float: left;
+}
+
+.item_left {
+	height: 41px;
+	width: 191px;
+	border-right: solid rgb(235,235,235) 1px;
+	border-bottom: solid rgb(235,235,235) 1px;
+}
+
+.item_right {
+	height: 41px;
+	width: 189px;
+	border-bottom: solid rgb(235,235,235) 1px;
+}
+
+
+.item_title {
+	color: gray;
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 11px; 
+}
+
+.items span {
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.year_of_learning, .company_no {
+	color: red;
+	padding-left: 11px;
+}
+
+.items img {
+	height: 12px;
+	vertical-align: middle;
+	line-height: 40px;
+	padding-left: 11px;
+}
+
+/*薪资待遇*/
+.salary {
+	height: 106px;
+}
+
+.salary_title, .salary_item {
+	float: left;
+}
+.salary_title {
+	width: 153px;
+	height: 105px;
+	border-right: solid rgb(235,235,235) 1px;
+	border-bottom: solid rgb(235,235,235) 1px; 
+	text-align: center;
+	line-height: 104px;
+	vertical-align: middle;
+	font-size: 12px;
+	color: gray;
+}
+
+.salary_item {
+	width: 227px;
+	height: 35px;
+	border-bottom: solid rgb(235,235,235) 1px;
+	font-size: 12px;
+}
+
+.salary_year {
+	float: left;
+	padding-left: 11px;
+	line-height: 34px;
+	vertical-align: middle;
+}
+
+.salary_amount {
+	float: right;
+	padding-right: 8px;
+	line-height: 34px;
+	vertical-align: middle;
+}
+
+.no {
+	height: 39px;
+	border-bottom: solid rgb(235,235,235) 1px;
+	line-height: 38px;
+	vertical-align: middle;
+	padding-left: 11px;
+}
+
+.learner_no {
+	color: red;
+}
+
+.tips {
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 11px;
+	color: gray;
+}
+
+/*动画。。*/
+
+.more {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 52px 45px 0 45px;
+	background-color: black;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.more h3 {
+	height: 88px;
+	line-height: 88px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.more p {
+	text-indent: 22px;
+	text-align: justify;
+}
+
+.more:hover {
+	opacity: 0.8;
+}

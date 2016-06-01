@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 0 360px;
+	height: 40px;
+	background-color: rgb(17,109,214);
+}
+
+header span {
+	line-height: 40px;
+	vertical-align: middle;
+	color: white;
+}
+
+header a {
+	text-decoration: none;
+	float: right;
+	display: block;
+	height: 40px;
+	width: 65px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	border-left: solid 1px white;
+	color: white;
+}
+
+header a.reg {
+	width: 100px;
+	background-color: white;
+	color: black;
+}
+
+nav {
+	padding: 26px 360px;
+	height: 100px;
+	background-color: rgb(248,248,248);
+}
+
+.btn {
+	text-decoration: none;
+	display: block;
+	height: 46px;
+	padding: 0 17px;
+	line-height: 46px;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+}
+
+nav .btn {
+	float: right;
+	margin: 0 0 0 60px;
+}
+
+.btn_this {
+	color: white;
+	background-color: rgb(17,109,214);
+}
+
+/*内容*/
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*步骤进度条*/
+.procedure {
+	height: 107px;
+}
+
+.step {
+	padding-top: 37px;
+	width: 160px;
+	float: right;
+}
+
+.step_line {
+	height: 5px;
+	width: 162px;/*比容器长一点，有覆盖的效果*/
+	background-color: rgb(197,197,197);
+	border-radius: 2.5px;
+
+}
+
+.step_this {
+	background-color: rgb(255,115,0);
+}
+
+.step_circle {
+	float: left;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin: 0 68px;
+	color: white;
+	background-color: rgb(197,197,197);
+	position: relative;
+	top: -10px;
+	line-height: 24px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.step_this .step_circle {
+	background-color:rgb(255,115,0);
+}
+
+.step_text {
+	width: 160px;
+	height: 70px;
+	padding-right: 20px;/*调整文字位置*/
+	color: rgb(197,197,197);
+	text-align: center;
+	line-height: 70px;
+	vertical-align: middle;
+}
+
+h3 {
+	height: 21px;
+	line-height: 21px;
+	margin: 35px 0 16px 0;
+	padding-left: 6px;
+	border-left: solid 4px rgb(17,109,215);
+}
+
+.title {
+	height: 45px;
+	background-color: rgb(243,243,243);
+	padding-left: 45px;
+	background-position: 16px 50%;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	color: rgb(17,109,215);
+	line-height: 45px;
+	vertical-align: middle;
+}
+
+.type {
+	background-image: url(../image/task9/box.png);
+}
+
+.size {
+	background-image: url(../image/task9/ruler.png);
+}
+
+.material {
+	background-image: url(../image/task9/cut.png);
+}
+
+.custom_type, .custom_size, .custom_material {
+	background-color: rgb(250,251,255);
+}
+
+.custom_type {
+	height: 86px;
+}
+
+.custom_type form {
+	height: 86px;
+	line-height: 86px;
+	vertical-align: middle;
+}
+
+.custom_size {
+	height: 140px;
+}
+
+.custom_material {
+	height: 140px;
+}
+
+
+.type_list {
+	padding-left: 45px;
+	padding-right: 10px;
+}
+
+
+.type_detail {
+	float: right;
+	height: 86px;
+	line-height: 86px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.custom_size form {
+	height: 140px;
+	line-height: 70px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.size_list {
+	padding-left: 45px;
+	padding-right: 10px;
+}
+
+.size_text input {
+	width: 70px;
+}
+
+
+.size_detail {
+	float: right;
+	position: relative;
+	top: -35px;
+	left: -20px;
+}
+
+.custom_material form {
+	height: 140px;
+	line-height: 140px;
+	vertical-align: middle;
+}
+.material_list {
+	padding-left: 45px;
+	padding-right: 10px;
+}
+
+.material_detail {
+	float: right;
+	height: 140px;
+	line-height: 140px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.next_step {
+	height: 285px;
+	padding: 119px 510px 120px 510px;
+}
+
+.next_step a {
+	text-decoration: none;
+	display: block;
+	height: 46px;
+	background-color: red;
+	color: white;
+	width: 180px;
+	line-height: 46px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 5px;
+}
+
+footer {
+	padding: 0 360px;
+	height: 245px;
+	background-color: rgb(248,248,248);
+}
+
+.copyright {
+	height: 35px;
+	background-color: rgb(17,109,214);
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+}

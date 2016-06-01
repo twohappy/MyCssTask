@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(238,238,238);
+}
+
+header {
+	background-color: rgb(36,181,219);
+	height: 8.2vh;
+	line-height: 8.2vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+header .menu {
+	height: 2.8vh;
+
+	vertical-align: middle;
+	padding-left: 4vw;
+}
+
+
+.block {
+	border: solid rgb(196,196,196) 1px ;
+}
+
+.lastgame {
+	background-color: white;
+	color: gray;
+	display: block;
+	width: 90vw;
+	height: 11vh;
+	margin: 2.3vh auto;
+	text-align: center;
+	line-height: 11vh;
+	vertical-align: middle;
+	font-size: 3vh;
+	background-image: url(../image/task6_1/back.png);
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	background-size: 2.5vh;
+}
+
+.version_container {
+	height: 70.5vh;
+	width: 90vw;
+	margin: 2.3vh auto;
+	background-color: white;
+	background-image: url(../image/task6_1/triangle.png);/*这里不对，三角形应该可以点*/
+	background-size: 2.8vh;
+	background-position: 98% 52%;
+	background-repeat:no-repeat;
+}
+
+.version_title {
+	text-align: center;
+	line-height: 8.1vh;
+	vertical-align: middle;
+	font-size: 3.5vh;
+	color: rgb(250,170,47);
+	border-bottom: solid 1px rgb(253,209,136);
+}
+
+.version {
+	height: 17vh;
+	width: 72vw;
+	margin: 2.6vh auto 0 auto;
+	text-align: center;
+
+}
+
+.version a {
+	display: block;
+	background-color: rgb(36,181,219);
+	color: white;
+	height: 12vh;
+	font-size: 3vh;
+	line-height: 12vh;
+	vertical-align: middle;
+	margin-bottom: 2vh;
+}
+
+.version span {
+	color: gray;
+	font-size: 2.3vh;
+}
+
+.caro_dot {
+	margin: 0 auto;
+	width: 20vw;
+	height: 3vh;
+	text-align: center;
+}
+
+.caro_dot img{
+	height: 1.8vh;
+}

@@ -2,23 +2,34 @@
 <html>
 <head>
 	<title>Nine block box location</title>
-	<meta name="viewport" content="width=device-width">
-	<!-- 上面这里tag里面没有initial缩放率，因为没有文字内容，且九宫格内容是按比例填充的
-	就算有，也只能是1，否则viewport宽度等于设备宽度就不是第一次显示的效果。 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../sheet/task1.css">
 </head>
 <body>
-	<div id="wrapper">
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
+	<div class="container" id="wrapper">
+		<div class="row">
+			<div class="col-md-4 col-xs-4 box" id="1"></div>
+			<div class="col-md-4 col-xs-4 box" id="2"></div>
+			<div class="col-md-4 col-xs-4 box" id="3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-4 box" id="4"></div>
+			<div class="col-md-4 col-xs-4 box" id="5"></div>
+			<div class="col-md-4 col-xs-4 box" id="6"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-4 box" id="7"></div>
+			<div class="col-md-4 col-xs-4 box" id="8"></div>
+			<div class="col-md-4 col-xs-4 box" id="9"></div>
+		</div>
 	</div>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/task1.js"></script>
 </body>
 </html>

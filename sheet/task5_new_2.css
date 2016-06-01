@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: rgb(80,184,199);
+	height: 7.5vh;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.locate{
+	float: right;
+}
+
+.tab-box {
+	position: absolute;
+	top: 0.5vh;
+	bottom: 0.5vh;
+	left: 30vw;
+	right: 30vw;
+	width: 40vw;
+	height: 6.5vh;
+	text-align: center;
+	background-color: rgb(71,158,171);
+	border-radius: 1vh;
+}
+
+.tab {
+	display: inline-block;
+	height: 6.5vh;
+	width: 20vw;
+	text-decoration:none;
+	color: white;
+	font-size: 2.8vh;
+	line-height: 6.5vh;
+	vertical-align: middle;
+}
+
+.focus {
+	background-color: white;
+	color: rgb(80,184,199);
+	border-radius: 1vh;
+}
+
+.locate {
+	display: block;
+	height: 7.5vh;
+
+}
+
+.locate img {
+	height: 4vh;
+	padding: 1.75vh 3vw;
+}
+
+/*过滤器*/
+.filter-box {
+	position: fixed;
+	height: 6.7vh;
+	border-bottom: solid rgb(80,184,199) 1px;
+	top: 7.5vh;
+	left: 0;
+	right: 0;
+}
+
+.filter {
+	display: inline-block;
+	width: 30vw;
+	text-decoration: none;
+	color: gray;
+	line-height: 6.7vh;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 2.5vh;
+	background-color: white;
+	background-image: url(../image/task5_new/images/2/triangle.png);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	background-size: 1.5vh;
+}
+
+.mid-column {
+	border-left: solid rgb(80,184,199) 1px;	
+	border-right: solid rgb(80,184,199) 1px;
+}
+
+
+
+.detail-box {
+	margin: 14.2vh 4vw 0 4vw;
+}
+
+.detail {
+	display: block;
+	height: 15vh;
+	border-bottom: solid rgb(80,184,199) 1px;
+	text-decoration: none;
+	color: gray;
+}
+
+.detail p {
+	height: 5vh;
+	line-height: 5vh;
+}
+
+.date, .location{
+	padding-left: 3vh;
+	background-size: 2vh;
+	background-repeat: no-repeat;
+	font-size: 2.5vh;
+}
+
+.period {
+	padding-left: 3vh;
+	font-size: 2.8vh;
+}
+
+.date {
+	background-image: url(../image/task5_new/images/2/date.png);
+}
+
+.location {
+	background-image: url(../image/task5_new/images/2/location.png);
+}
+
+.price {
+	padding-right: 4vh;
+	float: right;
+	color: red;
+	font-weight: border;
+	background-image: url(../image/task5_new/images/2/arrow.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 2vh;
+}
+
+.func-box {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 8.3vh;
+	background-color: rgb(250,250,250);
+	text-align: center;
+}
+
+.func-box a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: rgb(80,184,199);
+	font-size: 2vh;
+	margin: 1vh 0;
+}
+
+.func-box .homepage{
+	height: 6.3vh;
+	margin-left: 20vw;
+	width: 15vw;
+		background: url(../image/task5_new/images/2/homepage.png) no-repeat top;
+	background-size: 2.8vh;
+}
+
+.func-box .personal {
+	height: 6.3vh;
+	margin-right: 20vw;
+	width: 15vw;
+	background: url(../image/task5_new/images/2/personal.png) no-repeat top;
+	background-size: 2.8vh;
+}
+
+.func-box .message {	
+	height: 8.3vh;
+	width: 20vw;
+	margin: 0 3vw;
+	background: url(../image/task5_new/images/2/message.png) no-repeat center;
+	background-size: 7vh;
+}
+
+.func-box span {
+	vertical-align: text-bottom;
+	line-height: 10vh;
+	/*大疑问，为什么行高等于6.3也就是容器block高度时候，bottom不在最下面？*/
+}
+
